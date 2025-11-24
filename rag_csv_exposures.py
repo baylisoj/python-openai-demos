@@ -40,7 +40,7 @@ documents = [{"id": (i + 1), "body": " ".join(row)} for i, row in enumerate(rows
 index = lunr(ref="id", fields=["body"], documents=documents)
 
 # Get the user question
-user_question = "what is the size of the largest vessel in the fleet?"
+user_question = "when was titanic built?"
 
 # Search the index for the user question
 results = index.search(user_question)
