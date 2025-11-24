@@ -1,30 +1,101 @@
-vessel,year,type,value,tonnage,length,cargoType,premium
-Alvarez-Guerrero Daughter,2011,Tanker,18127156.1,229341.48,255.26,Oil,47324.57
-Baker Group Individual,1981,Bulk Carrier,183972039.12,94951.73,89.73,Dry Bulk,398078.7
-"Baker, Mayer and Jones Sign",2015,LNG Carrier,192383161.02,269103.68,258.13,Chemicals,392326.98
-Davis PLC Nation,2009,Bulk Carrier,189562957.53,97325.9,136.02,General Cargo,399541.85
-Salazar Group Trip,2001,Offshore Support,41195273.91,40701.91,220.09,Liquified Gas,87947.79
-James-Ramirez Yes,2007,RoRo,108690194.59,26463.63,344.27,Dry Bulk,222032.33
-Lewis Inc Public,2003,Tanker,173490448.33,287156.86,246.47,Chemicals,352202.96
-Morris PLC Other,1975,General Cargo,73871879.32,299866.85,385.06,Chemicals,173399.46
-Moore-Allison Worry,2016,General Cargo,100179431.19,130985.17,92.74,Chemicals,218240.89
-"Donaldson, Espinoza and Tate Agree",1997,Offshore Support,159520511.4,131176.0,237.94,Oil,380344.76
-"Li, Hahn and Schwartz See",2000,Container,22294223.99,254603.82,176.13,Dry Bulk,52498.44
-"Hernandez, Powell and Thompson Story",1980,Tanker,171874978.19,63658.36,241.2,Oil,380445.26
-Miller-Blanchard Dark,1982,General Cargo,60828151.68,107123.64,138.62,General Cargo,129959.35
-Brown LLC Begin,1999,RoRo,120498001.36,252905.61,174.5,Containers,257154.78
-Gutierrez-Brown Camera,2009,LNG Carrier,47008922.22,244949.04,195.81,General Cargo,95479.82
-Carrillo and Sons Guess,1997,Container,100709616.86,63411.22,397.21,Liquified Gas,214722.97
-Mckinney LLC Read,1994,Offshore Support,25820803.86,31966.05,278.01,General Cargo,55863.31
-Spencer-Hardy Cultural,2005,RoRo,29332594.33,69640.31,143.8,Liquified Gas,65027.43
-Titanic,1912,Passenger,53798763.25,195282.71,254.01,General Cargo,114785.04
-Robinson Group Bank,1981,Offshore Support,157435374.41,40001.82,55.74,General Cargo,353867.49
-Nguyen Ltd Stay,1975,LNG Carrier,81915653.38,230355.31,190.4,Containers,178133.78
-Paul Group Less,1992,General Cargo,139144753.03,13904.24,170.01,Containers,298061.98
-Smith-Watson Camera,1998,Container,28784945.34,211378.14,204.87,Dry Bulk,66110.38
-Mendoza Inc Various,2003,Offshore Support,38832480.91,58426.8,181.89,Containers,86538.18
-Gibson-Green Already,1976,Container,132227146.8,281754.51,75.5,Containers,282318.18
-Daniel Ltd Nature,2017,RoRo,23156621.38,145479.06,247.71,Dry Bulk,49494.96
-Mendez-Gilbert Stand,1978,Bulk Carrier,124707375.16,191957.62,288.75,Dry Bulk,266138.01
-Randall-Stone Hope,2022,Container,160223948.77,19036.77,78.24,General Cargo,370357.66
-Kelley Group Sing,1993,Bulk Carrier,62764288.67,262888.77,146.32,Dry Bulk,137792.72
+vesselId,vessel,operator,year,type,value,tonnage,length,cargoType,premium
+VSL-00001,"James, Shah and Alexander Bar",Poole Inc,1984,General Cargo,168579234.98,115977.11,131.69,Containers,365884.37
+VSL-00002,"York, Jones and Baker Response",Silva Inc,1977,Passenger,169804472.3,54383.59,200.84,Dry Bulk,352700.87
+VSL-00003,Acosta Ltd Itself,Goodwin LLC,1987,Bulk Carrier,74387344.85,29773.78,234.03,Dry Bulk,155938.19
+VSL-00004,"Ponce, Hall and Dodson Baby","Nielsen, Jones and Pitts",1974,Tanker,183987090.38,15965.91,68.38,Oil,385048.18
+VSL-00005,"Ortiz, Sanchez and Reyes House",Reid-Blankenship,2018,LNG Carrier,91131815.61,291782.03,77.11,Oil,196279.7
+VSL-00006,"White, Carpenter and Hampton Section","Macdonald, Hernandez and Collins",2018,Bulk Carrier,5160274.5,176166.78,327.91,Liquified Gas,11712.79
+VSL-00007,Thomas Group Institution,Barton-Russo,1992,LNG Carrier,124292421.81,80122.76,391.56,Dry Bulk,275954.03
+VSL-00008,"Allison, Wilson and Brown Computer","Diaz, Moody and Sanchez",1993,Passenger,11002809.17,110803.32,239.69,General Cargo,22903.45
+VSL-00009,"Vincent, Diaz and Flores Check",Nelson-Flowers,2009,Container,80001521.01,88864.5,318.2,Oil,177587.38
+VSL-00010,Hernandez-Garrett Wife,Mclaughlin-Bryant,1985,LNG Carrier,16790518.61,243063.52,237.11,Oil,34071.32
+VSL-00011,"Neal, Armstrong and Shaw Age",Morris-Clark,1999,Bulk Carrier,190302948.27,267440.3,302.94,General Cargo,391491.23
+VSL-00012,Harper LLC Somebody,Ellison LLC,1995,Passenger,146771724.55,93510.22,356.9,Dry Bulk,333480.04
+VSL-00013,Fowler LLC Play,"Reeves, Wise and Murphy",2022,Passenger,127622858.41,30600.93,394.75,General Cargo,287802.31
+VSL-00014,Holloway Inc Wear,Medina PLC,1990,Offshore Support,143336947.59,276990.58,224.0,Oil,330363.0
+VSL-00015,"Stone, Butler and Mcguire Generation",Duran and Sons,2006,Tanker,72011465.07,27776.16,183.08,Containers,169623.01
+VSL-00016,Patrick LLC Appear,Mullins and Sons,1992,Tanker,99899410.84,126907.12,65.42,General Cargo,200907.71
+VSL-00017,"Klein, Costa and Campbell Capital",Roth and Sons,1984,Offshore Support,109339285.45,172964.91,73.57,General Cargo,239332.76
+VSL-00018,Brennan-Conner Commercial,"Harrison, Kane and Morris",1996,General Cargo,170267830.71,130666.2,285.05,Chemicals,369430.11
+VSL-00019,Wang and Sons Ground,Morales and Sons,2020,General Cargo,179946939.37,115615.85,285.54,General Cargo,397016.93
+VSL-00020,Lambert PLC Political,"Farrell, Jordan and Vaughn",2020,LNG Carrier,3809458.48,78048.66,133.22,General Cargo,8631.85
+VSL-00021,"Torres, Sanchez and Mitchell Wait","Bowers, Fernandez and Hall",2006,Container,185977595.35,67566.11,190.13,General Cargo,386126.68
+VSL-00022,Gallegos-Miller Fine,Stevens-Rodgers,1986,Passenger,99403655.42,274865.38,257.39,Dry Bulk,243280.51
+VSL-00023,Mendez PLC Happy,Todd-Skinner,2007,Chemical Tanker,35508526.61,138928.41,396.58,Liquified Gas,84098.39
+VSL-00024,"Harper, Thompson and Mills Billion","Morrow, Wong and Pearson",2001,Tanker,24149089.65,52184.54,248.56,Oil,55301.42
+VSL-00025,"Williamson, Elliott and Martinez Own","Blair, Clayton and Mcguire",1977,Bulk Carrier,126044617.67,157230.98,76.8,Chemicals,262525.73
+VSL-00026,Rodriguez Inc Decide,"Kelley, Moon and Reed",1993,Passenger,170049902.64,224075.95,222.38,Dry Bulk,381302.9
+VSL-00027,Vaughn Inc Tonight,Smith LLC,2003,Chemical Tanker,147904789.63,31584.42,295.65,Oil,332770.99
+VSL-00028,"James, Moran and Green Plan","Johnson, Durham and Raymond",2016,General Cargo,182724523.12,42959.55,216.88,Dry Bulk,406671.7
+VSL-00029,"Ruiz, White and Young Ball",Turner and Sons,1999,Chemical Tanker,26193758.2,240970.17,328.82,Dry Bulk,54894.26
+VSL-00030,Flores and Sons Which,Williams-Wilson,2012,Chemical Tanker,176464581.94,234568.56,271.21,Dry Bulk,359917.16
+VSL-00031,Cline Group Individual,"Lee, Jefferson and James",1978,Passenger,118744156.07,61191.2,166.3,Containers,265832.54
+VSL-00032,Smith and Sons Any,"Rose, Hatfield and Salazar",1972,Passenger,60353568.84,128179.85,239.06,Chemicals,136851.72
+VSL-00033,Brown Inc Thus,Harding Ltd,1985,Container,11262437.06,181643.63,166.95,Dry Bulk,23458.53
+VSL-00034,"Brown, Lucero and Little Space",Miller Inc,1971,Passenger,8688821.4,193846.9,273.41,Dry Bulk,19401.27
+VSL-00035,Johnson-Lucas Today,White PLC,1982,LNG Carrier,155535006.55,57767.53,123.67,Dry Bulk,355024.21
+VSL-00036,Bryant Inc Dream,Johnson-Anderson,2008,Container,108750149.31,91944.77,120.29,General Cargo,244633.46
+VSL-00037,"Rivera, Stevens and Miller Manager",Whitaker-Townsend,2011,Container,199883976.03,256901.35,126.39,Containers,436246.78
+VSL-00038,"Arroyo, Stewart and Williamson Color",Edwards Inc,1981,Offshore Support,147549199.44,118028.39,182.16,Liquified Gas,313999.45
+VSL-00039,Reed-Foster Control,Adams-Norris,1993,LNG Carrier,35750865.48,14137.98,292.77,General Cargo,87868.48
+VSL-00040,"Buck, Burgess and Perry Past","Duncan, Jones and Johnson",2003,Container,131026556.65,52443.92,324.84,General Cargo,294049.8
+VSL-00041,Kennedy-May Order,"Hawkins, Webb and Graham",2006,Passenger,39373785.73,163644.82,253.74,General Cargo,82184.9
+VSL-00042,Collins-Hart Fall,Gutierrez LLC,1977,Tanker,63522180.98,220131.87,127.23,Oil,147638.25
+VSL-00043,Norris-Morgan Hard,Allen Group,1972,Passenger,111534763.16,93548.52,264.42,Oil,241974.67
+VSL-00044,Hughes Ltd Prevent,Irwin Inc,2003,Offshore Support,39788108.64,189222.9,397.92,Liquified Gas,83547.07
+VSL-00045,Golden Inc Edge,Johnson-Jenkins,1982,LNG Carrier,138158555.76,69544.64,303.06,Liquified Gas,302042.23
+VSL-00046,Myers-Thomas Floor,Campbell Group,1975,LNG Carrier,87192785.04,5038.68,260.31,Dry Bulk,194352.72
+VSL-00047,Marshall Inc Despite,"Stark, White and Lawrence",2002,Chemical Tanker,52469097.57,208107.02,161.05,Chemicals,112042.51
+VSL-00048,Schmidt Inc Against,Lee-Hopkins,1990,LNG Carrier,4328624.71,260919.91,192.43,General Cargo,10688.24
+VSL-00049,Richardson Inc Strategy,Olsen Inc,1977,General Cargo,155427146.98,84133.23,319.7,Containers,332209.98
+VSL-00050,Thompson LLC Three,Grimes-Taylor,2009,General Cargo,117671355.02,141706.33,57.78,Oil,272009.1
+VSL-00051,"Dawson, Bishop and Stephens Worker","Contreras, Neal and Hammond",2002,Offshore Support,81818661.33,123111.43,337.43,Dry Bulk,179420.14
+VSL-00052,Wagner Group Instead,"Austin, Martinez and Johnson",2015,Bulk Carrier,142542691.27,273642.53,134.21,Dry Bulk,331981.93
+VSL-00053,"Rodriguez, Shannon and Mason Drop",Wise and Sons,1970,General Cargo,144203519.91,197669.65,284.63,General Cargo,292459.16
+VSL-00054,Logan-Evans Pass,"Brown, Hughes and Peterson",1978,Container,172327323.38,41092.36,214.43,General Cargo,369125.13
+VSL-00055,Johnson-Williams Big,"Phillips, Lopez and Simmons",2007,Chemical Tanker,71986302.56,75293.2,309.79,Dry Bulk,152841.32
+VSL-00056,"Collins, Valdez and Le This",Schultz-Ryan,2015,Bulk Carrier,38027538.14,66427.99,348.95,Liquified Gas,85641.82
+VSL-00057,Larson PLC Get,Smith PLC,1980,LNG Carrier,83465842.56,14524.33,368.19,Containers,193816.03
+VSL-00058,Anderson LLC Popular,"Wyatt, Lynn and Nichols",2019,Passenger,196925930.15,276430.19,274.21,Chemicals,407400.36
+VSL-00059,Adams-Ruiz Physical,Simpson Inc,1988,LNG Carrier,133293147.86,138655.51,81.65,Oil,286287.02
+VSL-00060,Barajas-Myers That,"Hale, Evans and Moore",1985,Tanker,137366088.04,98026.88,102.17,General Cargo,325749.94
+VSL-00061,Rogers LLC Indeed,Smith PLC,1974,Tanker,87994014.77,264768.11,397.11,Dry Bulk,194598.76
+VSL-00062,Lane and Sons Six,Smith-Perez,1981,General Cargo,59316331.61,145102.21,183.03,Containers,125946.37
+VSL-00063,Hensley-Leon Statement,"Holloway, Gonzalez and Watkins",1977,Chemical Tanker,52836543.3,220174.34,361.96,Chemicals,111495.67
+VSL-00064,Evans and Sons Threat,Newman Inc,2012,LNG Carrier,146726187.0,165332.21,325.89,Dry Bulk,311587.73
+VSL-00065,"Green, Bass and Richard Such",Gardner-Diaz,2013,Passenger,70187084.54,208032.48,247.33,Chemicals,146705.04
+VSL-00066,Williams-Reilly Born,"Murphy, Flores and Banks",2005,Container,168332419.73,229520.34,304.37,Dry Bulk,342960.47
+VSL-00067,"Vargas, Stevenson and Smith Prevent",Gutierrez PLC,2001,Bulk Carrier,39156660.55,239333.25,181.69,Containers,87753.99
+VSL-00068,Neal and Sons Culture,Watson PLC,2007,Passenger,65159620.12,13390.75,88.2,Chemicals,141539.73
+VSL-00069,Randall-Wright Enter,"Costa, Brown and Williams",1998,Bulk Carrier,89627506.79,270249.01,370.49,Liquified Gas,193918.07
+VSL-00070,Simpson PLC The,Howard-Vega,2016,Passenger,190065110.26,96061.14,115.55,Chemicals,422172.62
+VSL-00071,"Smith, Daniels and Vargas Car",Anthony-Johnson,1998,Chemical Tanker,92221722.88,12404.22,213.07,Dry Bulk,209924.31
+VSL-00072,David Inc Operation,Newman Group,2004,Tanker,67197480.87,256548.88,168.26,Dry Bulk,158787.65
+VSL-00073,"Foster, Cowan and Mcclure Cover","Rangel, Whitney and Herrera",2006,Tanker,110587504.3,287374.58,322.92,General Cargo,233582.93
+VSL-00074,"Mckee, Morrison and Reid Spring",Hardy and Sons,2012,Passenger,32248397.98,271264.05,341.68,Chemicals,66157.59
+VSL-00075,Jennings-Hartman As,Oliver-Cooper,1985,Passenger,46895639.04,87234.42,151.01,Oil,103916.05
+VSL-00076,Bass-Baker Ability,Jones-Sanford,1983,Offshore Support,101287976.36,283139.62,62.35,Liquified Gas,224758.02
+VSL-00077,"Gilbert, Lawrence and Mendoza Bit",Lambert Ltd,2005,Chemical Tanker,58345273.83,70901.8,343.76,General Cargo,131656.11
+VSL-00078,"Harrell, Jackson and Martinez Name",Moore and Sons,2022,Chemical Tanker,47586250.99,6073.44,216.56,Liquified Gas,103105.13
+VSL-00079,"Mcdonald, Campbell and Dunlap Kitchen","Wilson, Nichols and Malone",1996,Tanker,54849586.94,3496.15,65.34,Containers,130311.65
+VSL-00080,"Bartlett, Reyes and Mullins Their","Roberts, Mayo and Gilmore",1990,Container,168956583.25,29132.76,264.93,Containers,376992.82
+VSL-00081,Moran-Taylor Civil,"Avery, Salazar and Booth",1976,Tanker,76312827.68,165890.15,282.66,Dry Bulk,176938.92
+VSL-00082,"Miller, Brown and Lewis Any",Marshall-Liu,1999,LNG Carrier,61000590.04,17598.1,189.52,Dry Bulk,132115.08
+VSL-00083,"Jordan, Gutierrez and Reed Real","Brown, Huff and Mclean",1989,Container,162193052.71,76961.73,383.78,Dry Bulk,359825.29
+VSL-00084,Ramirez-Thompson Save,"Burke, Cox and Ramirez",1980,LNG Carrier,151235857.64,91793.71,254.71,Chemicals,320771.25
+VSL-00085,Trujillo Group Bad,Payne-Rodriguez,1987,LNG Carrier,64955294.66,130611.44,206.04,Dry Bulk,145512.85
+VSL-00086,Guerrero Group Anything,"Harvey, Christensen and Martinez",1982,Container,11880861.55,78813.32,81.49,Dry Bulk,24632.59
+VSL-00087,Cannon and Sons Head,Greene-Lewis,2001,General Cargo,155927414.26,107660.27,227.56,General Cargo,332390.47
+VSL-00088,Barker-Thompson Magazine,Harris-Farley,2002,Tanker,108178916.9,166699.37,217.27,Dry Bulk,238577.78
+VSL-00089,Ochoa-Johnson Head,Brooks-Kelly,1995,LNG Carrier,38504519.29,208838.06,165.9,Liquified Gas,78495.31
+VSL-00090,"Lin, Petersen and Morris Skin",Jenkins LLC,2009,Bulk Carrier,19700823.54,52842.19,131.65,General Cargo,43227.55
+VSL-00091,Nielsen-Howard Establish,Shannon-Gibbs,2007,General Cargo,176094813.8,128049.51,195.55,General Cargo,363618.18
+VSL-00092,Wilson-Flores Could,Robinson-Williamson,1994,Offshore Support,74046807.38,64687.25,87.88,Oil,157601.22
+VSL-00093,"Smith, Banks and Nguyen Pull",Nguyen-Hall,1970,Offshore Support,42993879.18,156867.09,77.34,Oil,94208.19
+VSL-00094,Kline Inc Drug,Barajas LLC,1977,Container,91365272.34,219150.29,115.19,Containers,204539.44
+VSL-00095,"Boyd, Hunt and Miller West","Chambers, Elliott and Hicks",1975,Container,180801561.8,282487.18,187.08,General Cargo,396895.59
+VSL-00096,"Sanchez, Blackwell and Chan Religious",Martinez Inc,2019,General Cargo,122965568.28,231209.94,119.11,Dry Bulk,280964.03
+VSL-00097,Sanders LLC Third,Robertson Inc,2011,Bulk Carrier,186293283.94,278688.32,173.53,Oil,386707.6
+VSL-00098,Pennington Ltd Degree,Burns-Perez,1973,Chemical Tanker,110220708.43,5934.08,155.05,General Cargo,238396.37
+VSL-00099,"Lopez, Gregory and Mullen Professor",Glover-Hester,2011,Passenger,167486910.43,106015.5,375.98,Oil,393661.23
+VSL-00100,Titanic,Anderson-Harris,1912,Chemical Tanker,195787414.85,27609.27,389.69,Chemicals,417301.3
