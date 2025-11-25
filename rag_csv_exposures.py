@@ -10,6 +10,8 @@ from lunr import lunr
 load_dotenv(override=True)
 API_HOST = os.getenv("API_HOST", "github")
 
+print(os.environ["API_HOST"])
+
 if API_HOST == "azure":
     token_provider = azure.identity.get_bearer_token_provider(
         azure.identity.DefaultAzureCredential(), "https://cognitiveservices.azure.com/.default"
