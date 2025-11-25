@@ -42,34 +42,44 @@ with open("exposures.csv") as file:
 documents = [{"id": (i + 1), "body": " ".join(row)} for i, row in enumerate(rows[1:])]
 index = lunr(ref="id", fields=["body"], documents=documents)
 
-# Get the user question
-user_question = "when was titanic built?"
-
-# Search the index for the user question
-results = index.search(user_question)
-matching_rows = [rows[int(result["ref"])] for result in results]
-
-# Format as a markdown table, since language models understand markdown
-matches_table = " | ".join(rows[0]) + "\n" + " | ".join(" --- " for _ in range(len(rows[0]))) + "\n"
-matches_table += "\n".join(" | ".join(row) for row in matching_rows)
-
-print("Found matches:")
-print(matches_table)
-
-# Now we can use the matches to generate a response
+# System message for the AI assistant
 SYSTEM_MESSAGE = """
 You are a helpful assistant that answers questions about vessel insurance exposures based on an exposures data set.
 You must use the data set to answer the questions, you should not provide any info that is not in the provided sources.
 """
 
-response = client.chat.completions.create(
-    model=MODEL_NAME,
-    temperature=0.3,
-    messages=[
-        {"role": "system", "content": SYSTEM_MESSAGE},
-        {"role": "user", "content": f"{user_question}\nSources: {matches_table}"},
-    ],
-)
-
-print(f"\nResponse from {API_HOST}: \n")
-print(response.choices[0].message.content)
+# Loop to handle multiple questions
+while True:
+    # Get the user question
+    user_question = input("\nEnter your question about vessel insurance exposures (or 'quit' to exit): ")
+    
+    if user_question.lower() in ['quit', 'exit', 'q']:
+        print("Goodbye!")
+        break
+    
+    if not user_question.strip():
+        continue
+    
+    # Search the index for the user question
+    results = index.search(user_question)
+    matching_rows = [rows[int(result["ref"])] for result in results]
+    
+    # Format as a markdown table, since language models understand markdown
+    matches_table = " | ".join(rows[0]) + "\n" + " | ".join(" --- " for _ in range(len(rows[0]))) + "\n"
+    matches_table += "\n".join(" | ".join(row) for row in matching_rows)
+    
+    print("\nFound matches:")
+    print(matches_table)
+    
+    # Now we can use the matches to generate a response
+    response = client.chat.completions.create(
+        model=MODEL_NAME,
+        temperature=0.3,
+        messages=[
+            {"role": "system", "content": SYSTEM_MESSAGE},
+            {"role": "user", "content": f"{user_question}\nSources: {matches_table}"},
+        ],
+    )
+    
+    print(f"\nResponse from {API_HOST}:\n")
+    print(response.choices[0].message.content)
